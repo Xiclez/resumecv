@@ -2,7 +2,7 @@ import { OrbitControls } from "@react-three/drei";
 import { useFrame, useLoader } from "@react-three/fiber";
 import { useRef } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import dog from "../../assets/3d/dog3.glb";
+import dog from "../../assets/3d/theatre_ostia_antica_italy.glb";
 import { useIsMobile } from "../../hooks";
 
 const Dog = () => {
