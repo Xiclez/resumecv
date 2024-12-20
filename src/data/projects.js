@@ -1,8 +1,22 @@
 import invmgr from "../assets/images/invmgr.png";
 import dxv from "../assets/images/dxavxp.png";
 import spaceapps from "../assets/images/spaceapps.jpg";
+import daxiklezCloud from "../assets/images/daxiklezCloud.jpeg"
+import daxiklezStore from "../assets/images/dxzstore.png"
 
 export const projects = [
+  {
+    title: "DaXiklez Cloud (Beta TBA)",
+    description: "The Revolutionary GitHub for musicians.",
+    image: daxiklezCloud,
+    link: "https://daxiklez-cloud.vercel.app/",
+  },
+  {
+    title: "DaXiklez Store",
+    description: "Personal eShop",
+    image: daxiklezStore,
+    link: "https://daxiklez-store.vercel.app/",
+  },
   {
     title: "InventoryMgr",
     description: "Digital inventory solution replacing paper-based lending with efficient tracking.",
@@ -11,7 +25,7 @@ export const projects = [
   },
   {
     title: "DaXiklez AudioVisual Experience",
-    description: "Music project exploring 90-110bpm sounds with AI-generated psychedelic visuals.",
+    description: "Music project with AI-generated psychedelic visuals.",
     image: dxv,
     link: "https://www.youtube.com/@DaXiklez",
   },
